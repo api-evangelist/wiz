@@ -43,6 +43,8 @@ apis:
       - type: GraphQL
         url: https://api.us1.app.wiz.io/graphql
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/wizsecurity
   - type: Website
     url: https://www.wiz.io
   - type: Documentation
