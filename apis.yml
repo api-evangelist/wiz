@@ -51,7 +51,7 @@ common:
   url: https://www.wiz.io
 - type: Documentation
   url: https://docs.wiz.io
-- type: SignUp
+- type: Signup
   url: https://www.wiz.io/demo
 - type: Pricing
   url: https://www.wiz.io/pricing
