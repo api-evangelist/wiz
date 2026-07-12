@@ -45,6 +45,12 @@ apis:
   - url: graphql/wiz-graphql.md
     type: GraphQL
 common:
+- type: TrustCenter
+  url: security/wiz-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/wiz-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/wiz-domain-security.yml
 - type: LinkedIn
   url: https://www.linkedin.com/company/wizsecurity
 - type: Website
@@ -57,6 +63,8 @@ common:
   url: https://www.wiz.io/pricing
 - type: Academy
   url: https://www.wiz.io/academy
+- url: https://www.wiz.io/blog/rss.xml
+  type: Blog
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
