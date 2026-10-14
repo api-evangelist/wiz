@@ -51,3 +51,42 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
+- slug: wiz-microsoft-sentinel-own
+  label: Microsoft Sentinel (own)
+  partner: microsoft-sentinel
+  partner_name: Microsoft Sentinel (own)
+  category: Security - Cloud Security
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Wiz
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-okta-own
+  label: Okta (own)
+  partner: okta
+  partner_name: Okta (own)
+  category: Identity Governance and Administration (IGA)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.okta.com/integrations/wizapiservice/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-palo-alto-networks-own
+  label: Palo Alto Networks (own)
+  partner: palo-alto-networks
+  partner_name: Palo Alto Networks (own)
+  category: Cloud Security
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://cortex.marketplace.pan.dev/marketplace/details/Wiz/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
