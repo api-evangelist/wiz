@@ -51,78 +51,6 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
-- slug: wiz-microsoft-sentinel-own
-  label: Microsoft Sentinel (own)
-  partner: microsoft-sentinel
-  partner_name: Microsoft Sentinel (own)
-  category: Security - Cloud Security
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Wiz
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: wiz-okta-own
-  label: Okta (own)
-  partner: okta
-  partner_name: Okta (own)
-  category: Identity Governance and Administration (IGA)
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://www.okta.com/integrations/wizapiservice/
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: wiz-palo-alto-networks-own
-  label: Palo Alto Networks (own)
-  partner: palo-alto-networks
-  partner_name: Palo Alto Networks (own)
-  category: Cloud Security
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  evidence: https://cortex.marketplace.pan.dev/marketplace/details/Wiz/
-  source: edge
-  relationship: platform-app
-  status: not-a-workflow
-  arazzo: null
-- slug: wiz-cncf-cloud-native-landscape
-  label: CNCF (Cloud Native Landscape)
-  partner: cncf
-  partner_name: CNCF (Cloud Native Landscape)
-  category: Cloud native landscape
-  type: register
-  channel: standard-directory
-  evidence: https://github.com/cncf/landscape/blob/3a7d378b1824b82e729a453bb03fa6f1e37557e1/landscape.yml
-  source: edge
-  relationship: standard-participant
-  contract_reference:
-    register: CNCF Cloud Native Landscape (github.com/cncf/landscape landscape.yml @3a7d378b18)
-    spec_file: null
-    standard: Cloud Native (CNCF)
-    role: cncf-member (Silver)
-    registered_name: Wiz
-    registered_names:
-    - Wiz
-    website: https://www.wiz.io
-    matched_domain: wiz.io
-    matched_by: domain
-    member_tier: Silver
-    joined: '2024-11-01'
-    end_user: false
-    cncf_projects: []
-    landscape_categories: []
-    landscape_entries: 0
-    signal_note: 'participation only: a landscape listing is standard-participant evidence, not depth. Entries,
-      categories, tier and projects are CONTEXT, never read (breadth is not credit)'
-    detected_by: sweep-cloud-native.py
-    detected: '2026-10-15'
-  status: not-a-workflow
-  arazzo: null
 - slug: wiz-fedramp
   label: FedRAMP
   partner_name: FedRAMP
@@ -191,6 +119,78 @@
       latest_authorization: '2024-05-20'
   status: not-a-workflow
   arazzo: null
+- slug: wiz-cncf-cloud-native-landscape
+  label: CNCF (Cloud Native Landscape)
+  partner: cncf
+  partner_name: CNCF (Cloud Native Landscape)
+  category: Cloud native landscape
+  type: register
+  channel: standard-directory
+  evidence: https://github.com/cncf/landscape/blob/42dd4cd91dad8ec8558ac02467a43f0805b9957a/landscape.yml
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: CNCF Cloud Native Landscape (github.com/cncf/landscape landscape.yml @42dd4cd91d)
+    spec_file: null
+    standard: Cloud Native (CNCF)
+    role: cncf-member (Silver)
+    registered_name: Wiz
+    registered_names:
+    - Wiz
+    website: https://www.wiz.io
+    matched_domain: wiz.io
+    matched_by: domain
+    member_tier: Silver
+    joined: '2024-11-01'
+    end_user: false
+    cncf_projects: []
+    landscape_categories: []
+    landscape_entries: 0
+    signal_note: 'participation only: a landscape listing is standard-participant evidence, not depth. Entries,
+      categories, tier and projects are CONTEXT, never read (breadth is not credit)'
+    detected_by: sweep-cloud-native.py
+    detected: '2026-10-19'
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-microsoft-sentinel-own
+  label: Microsoft Sentinel (own)
+  partner: microsoft-sentinel
+  partner_name: Microsoft Sentinel (own)
+  category: Security - Cloud Security
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://github.com/Azure/Azure-Sentinel/tree/master/Solutions/Wiz
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-okta-own
+  label: Okta (own)
+  partner: okta
+  partner_name: Okta (own)
+  category: Identity Governance and Administration (IGA)
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.okta.com/integrations/wizapiservice/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-palo-alto-networks-own
+  label: Palo Alto Networks (own)
+  partner: palo-alto-networks
+  partner_name: Palo Alto Networks (own)
+  category: Cloud Security
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://cortex.marketplace.pan.dev/marketplace/details/Wiz/
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
 - slug: wiz-slack-own
   label: Slack (own)
   partner: slack
@@ -200,6 +200,19 @@
   marketplace: own
   channel: partner-built
   evidence: https://slack.com/marketplace/A07FEKUGJGM-wiz
+  source: edge
+  relationship: platform-app
+  status: not-a-workflow
+  arazzo: null
+- slug: wiz-zendesk-own
+  label: Zendesk (own)
+  partner: zendesk
+  partner_name: Zendesk (own)
+  category: Security, Risk and Compliance
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  evidence: https://www.zendesk.com/marketplace/apps/support/1121580/wiz/
   source: edge
   relationship: platform-app
   status: not-a-workflow
